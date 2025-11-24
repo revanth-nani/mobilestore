@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartPhone Hub | Products</title>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: #fff; }
+
+        header {
+            background: #0d0d0d;
+            color: white;
+            padding: 25px;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+
+        .product-card {
+            background: #f2f4f7;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 12px;
+        }
+
+        .product-card h3 {
+            margin: 15px 0 5px;
+            font-size: 22px;
+        }
+
+        .product-card p {
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-size: 20px;
+            color: #0066ff;
+            font-weight: bold;
+        }
+
+        .btn {
+            display: block;
+            margin: 30px auto 0;
+            width: 230px;
+            text-align: center;
+            padding: 14px;
+            background: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 20px;
+        }
+
+        footer {
+            margin-top: 40px;
+            background: #0d0d0d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<header>OUR PRODUCTS</header>
+
+<div class="container">
+
+    <div class="grid">
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1556656793-08538906a9f8" alt="iPhone">
+            <h3>iPhone 15 Pro</h3>
+            <p>Flagship performance with A17 chip</p>
+            <div class="price">$1199</div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1584438784894-089d6a62b8af" alt="Samsung S23">
+            <h3>Samsung Galaxy S24</h3>
+            <p>120Hz AMOLED • Triple Camera</p>
+            <div class="price">$999</div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97" alt="Pixel">
+            <h3>Google Pixel 9</h3>
+            <p>AI-powered photography excellence</p>
+            <div class="price">$899</div>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7" alt="OnePlus">
+            <h3>OnePlus 12</h3>
+            <p>Blazing fast charging • OxygenOS</p>
+            <div class="price">$749</div>
+        </div>
+
+    </div>
+
+    <a href="payments.html" class="btn">Proceed to Payment</a>
+
+</div>
+
+<footer>© 2025 Smartphone Hub</footer>
+
+</body>
+</html>

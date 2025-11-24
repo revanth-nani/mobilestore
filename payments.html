@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartPhone Hub | Payment</title>
+
+    <style>
+        body { font-family: Arial; background: #eef1f5; }
+
+        header {
+            background: #0d0d0d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            font-size: 28px;
+        }
+
+        .payment-box {
+            width: 90%;
+            max-width: 500px;
+            background: white;
+            padding: 30px;
+            margin: 40px auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .payment-box h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 14px;
+            margin: 12px 0;
+            border-radius: 8px;
+            border: 1px solid #bbb;
+            font-size: 16px;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 14px;
+            background: #ff5500;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>PAYMENT DETAILS</header>
+
+<div class="payment-box">
+    <h2>Complete Your Purchase</h2>
+
+    <input type="text" placeholder="Full Name">
+    <input type="text" placeholder="Address">
+    <input type="text" placeholder="Phone Number">
+    <input type="text" placeholder="Card Number">
+
+    <select>
+        <option>Select Payment Method</option>
+        <option>Credit Card</option>
+        <option>Debit Card</option>
+        <option>UPI</option>
+        <option>Cash on Delivery</option>
+    </select>
+
+    <a href="thankyou.html" class="btn">Submit Payment</a>
+</div>
+
+</body>
+</html>
